@@ -5,6 +5,9 @@
 </template>
 
 <script>
+  //webpack with es6
+  //import videojs from '../video.js/dist/video.es.js'
+  //window.videojs = videojs
   window.videojs = require('video.js')
   require('video.js/dist/video-js.css')
   var languages = require('./languages.js')
